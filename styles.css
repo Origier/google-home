@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700');
+
+.blue_text {
+   color: #4885ed;
+}
+
+.red_text {
+   color: #db3236;
+}
+
+.yellow_text {
+   color: #f4c20d;
+}
+
+.green_text {
+   color: #3cba54;
+}
+
+h1 {
+   font-family: Lato, sans-serif;
+}
