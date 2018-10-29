@@ -1,7 +1,15 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:400,700');
 
 #logo {
+   
+   width: auto;
    margin: auto;
+   text-align: center;
+}
+
+#logo h1 {
+   font-size: 100px;
+   margin-bottom: 20px;
 }
 
 #nav-list li, #profile-nav li {
@@ -22,6 +30,23 @@
    float: right;
    align-items: center;
    margin: 0;
+}
+
+.search_bar {
+   box-shadow: 0 0.1em .3em #E3E0E0;
+   width: 550px;
+   height: 40px;
+   border: solid 1px #E3E0E0; 
+   text-indent: 20px;
+   font-size: 20px;
+}
+
+.search_bar:hover {
+   box-shadow: 0 0.3em .7em #BFBDBD;
+}
+
+.search_bar:focus {
+   outline-color: #E3E0E0;
 }
 
 .blue_text {
@@ -64,7 +89,7 @@ body {
 }
 
 main {
-   margin: 400px auto;
+   margin: 170px auto;
 }
 
 a {
